@@ -30,7 +30,16 @@ public class EmployeePayrollFileIoService {
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-	}	
+	}
+	public long countEntries() {
+		long entries = 0;
+		try {
+			entries = Files.lines(new File("payroll-file.txt").toPath()).count();
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		return entries;
+	}
 	
 
 
