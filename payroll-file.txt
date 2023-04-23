@@ -1,0 +1,3 @@
+id = 1salary = 100000.0name = Jeff Bezos
+id = 2salary = 200000.0name = Bill Gates
+id = 3salary = 300000.0name = Mark Zuck
